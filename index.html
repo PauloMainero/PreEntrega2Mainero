@@ -1,12 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
 </head>
 <body>
-    
+    <section class="fondo">
+        <img src="img/chip1.png" alt="imagen" class="animate__animated animate__fadeInTopLeft">
+        <img src="img/chip1.png" alt="imagen" class="animate__animated animate__fadeInBottomRight img__2">
+        <div class="form__container">
+        <form class="form">
+            <label for="email" class="form__label">Email:</label><br>
+            <input type="email" class="form__input"><br>
+            <label for="contraseña" class="form__label">Contraseña:</label><br>
+            <input type="password" class="form__input"><br>
+            <input type="submit" class="boton">
+        </form>
+        </div>
+    </section>
+    <nav class="nav">
+        <ul class="lista">
+            <li><a href="pages/productos.html">Productos</a></li>
+            <li><a href="pages/nosotros.html">Nosotros</a></li>
+            <li><a href="pages/contacto.html">contacto</a></li>
+            <li><a href="pages/ubicacion.html">Ubicacion</a></li>
+        </ul>
+    </nav>
 </body>
 </html>

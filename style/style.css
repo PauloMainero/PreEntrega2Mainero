@@ -368,3 +368,53 @@ footer{
     color: #072C06;
     transition: 0.7s;
   }
+  /* CSS DE UBICACION*/
+  .body-ubi{
+    height: 100vh;
+    margin: 0%;
+    padding: 0%;
+    background-image: url(/img/fondo-ubi.jpg);
+    background-size: cover;
+  }
+  /* NAV UBI */
+  .animate__animated.animate__slideInDown{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+  }
+  .link__ubi{
+    text-decoration: none;
+    color: #52FF00;
+    padding: 10px;
+  }
+  .link__ubi:hover{
+    border: 2px solid #52FF00;
+    border-radius: 40%;
+  }
+  /*Main*/
+  .contenedor-ubi{
+    height: 60%;
+    width: 70%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    backdrop-filter: blur(5px);
+    border-radius: 20%;
+  }
+  .animate__animated.animate__zoomIn{
+    position: absolute;
+    height: 90%;
+    width: 80%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+  }
+  .animate__animated.animate__zoomIn:hover{
+    border: #52FF00 2px solid;
+  }
+  /*footer ubi*/
+  .footer-ubi{
+    position: absolute;
+    bottom: 0%;
+  }

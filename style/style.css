@@ -418,3 +418,177 @@ footer{
     position: absolute;
     bottom: 0%;
   }
+/*CSS DE NOSOTROS*/
+.body-nosotros{
+    height: 100vh;
+    margin: 0%;
+    padding: 0%;
+    background-image: url(/img/fondo-nosotros.jpg);
+}
+/*NAV NOSOTROS*/
+.nav__nosotros{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5px;
+    padding: 20px;
+}
+.link__nos{
+    text-decoration: none;
+    color: transparent;
+}
+.link__nos:hover{
+    background-color: #52FF00;
+    padding: 20px;
+    color: #072C06;
+    transition: 0.8s;
+    border-radius: 10%;
+}
+/*Flechas Y Signos*/
+.flecha{
+    position: absolute;
+    height: 120px;
+    width: 100px;
+    rotate: 45deg;
+    transform: translate(-50%, -50%);
+    top: 20%;
+    left: 7%;
+}.signo{
+    color: #52FF00;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 14%;
+    top: 11%;
+    font-size: 30px;
+}
+.flecha__2{
+    position: absolute;
+    height: 120px;
+    width: 100px;
+    rotate: 310deg;
+    top: 0%;
+    left: 42%;
+}.signo__2{
+    color: #52FF00;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 38%;
+    rotate: 180deg;
+    top: 5%;
+    font-size: 30px;
+}
+.flecha__3{
+    position: absolute;
+    height: 200px;
+    width: 160px;
+    top: 10%;
+    left: 56%;
+    margin: 0%;
+    padding: 0%;
+}.signo__3{
+    color: #52FF00;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 63%;
+    top: 20%;
+    font-size: 30px;
+}
+.flecha__4{
+    position: absolute;
+    height: 120px;
+    width: 100px;
+    rotate: -60deg;
+    right: 5%;
+    top: 0%;
+}.signo__4{
+    color: #52FF00;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    right: 10%;
+    top: 12%;
+    font-size: 30px;
+}
+.flechas__doble{
+    position: absolute;
+    transform: translate(-50%, 50%);
+    left: 50%;
+    top: 62%;
+    height: 100px;
+    width: 100px;
+    rotate: 90deg;
+}
+.flechas__doble__2{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 60%;
+    top: 45%;
+    height: 100px;
+    width: 100px;
+}
+.flechas__doble__3{
+    position: absolute;
+    transform: translate(50%, 50%);
+    left: 40%;
+    top: 45%;
+    height: 100px;
+    width: 100px;
+    rotate: 180deg;
+}
+.texto-medio{
+    color: #52FF00;
+    font-size: 10px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 50%;
+    top: 45%;
+}
+.div__izquierdo{
+    height: 250px;
+    width: 250px;
+    color: transparent;
+    font-size: 13px;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 25%;
+    top: 50%;
+}.div__izquierdo:hover{
+    background-color: #072C06;
+    color: #52FF00;
+    transition: 1s;
+}
+.div__derecho{
+    height: 250px;
+    width: 250px;
+    color: transparent;
+    font-size: 13px;
+    text-align: center;
+    position: absolute;
+    right: 25%;
+    top: 50%;
+    transform: translate(50%, -50%);
+}.div__derecho:hover{
+    background-color: #072C06;
+    color: #52FF00;
+    transition: 1s;
+}
+/* footer nosotros*/
+.footer-nosotros{
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 25%;
+    border: none;
+}
+.div__footer{
+    color: transparent;
+    position: absolute;
+    width: 70%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    bottom: 10%;
+}
+.div__footer:hover{
+    color: #52FF00;
+    background-color: #072C06;
+    transition: 1s;
+}

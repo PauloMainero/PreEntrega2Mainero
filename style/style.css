@@ -236,3 +236,135 @@ footer{
     text-align: center;
     font-size: small;
 }
+/*css contacto*/
+.body__contacto{
+    font-family: 'Press Start 2P';
+    background-image: url(/img/fondo-contacto.jpg);
+}
+.main__container{
+    width: 25%;
+    height: 75%;
+    border-radius: 10%;
+    background: transparent;
+    border: 2px solid #52FF00;
+    backdrop-filter: blur(10px);
+    position: absolute;
+    left: 40%;
+    top: 10%;
+    text-align: center;
+    justify-items: center;
+    animation: pulse 7s ease infinite;
+}
+.main__container h3{
+    color: #52FF00;
+    font-size: 70%;
+}
+.texto{
+    width: 80%;
+    height: 30%;
+    background: transparent;
+    border: 1px solid #52FF00;
+    border-radius: 10%;
+    color: #52FF00;
+}
+.boton-enviar{
+    background: transparent;
+    border: #52FF00 1px solid;
+    border-radius: 10%;
+    color: #52FF00;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 20px;
+}
+.boton-enviar:hover{
+    background-color: #52FF00;
+    color: #072C06;
+    transition: 0.7s;
+    animation: shake .5s ease-in-out infinite;
+}
+/*redes*/
+.red__inst{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    transform: translate(-50%, -50%);
+    bottom: 5%;
+    left: 30%;
+
+}
+.red__wasap{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    height: 45px;
+    width: 45px;
+    bottom: 10%;
+    right: 15%;
+}
+.redes__instagram{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    bottom: 5%;
+    left: 28%;
+}
+.redes__wasap{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    bottom: 5%;
+    right: 0%;
+}
+/*keyframes*/
+@keyframes shake {
+    0% {
+      transform: translateX(0);
+    }
+    20% {
+      transform: translateX(-2px);
+    }
+    40% {
+      transform: translateX(2px);
+    }
+    60% {
+      transform: translateX(-2px);
+    }
+    80% {
+      transform: translateX(2px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.03);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  /*nav*/
+  .nav-contacto{
+    position: absolute;
+    bottom: 4%;
+    display: flex;
+    transform: translate(-50%, -50%);
+    left: 50%;
+  }
+  .link__nav{
+    text-decoration: none;
+    margin-left: 60px;
+    margin-right: 60px;
+    color: #52FF00;
+    font-size: 10px;
+    padding: 10px;
+  }
+  .link__nav:hover{
+    border-radius: 40%;
+    background-color: #52FF00;
+    color: #072C06;
+    transition: 0.7s;
+  }

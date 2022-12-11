@@ -134,3 +134,105 @@ body{
     bottom: 0%;
   }
 }
+/*css responsive de productos*/
+.body-productos{
+    background-image: url(/img/fondo-productos.jpg);
+    backdrop-filter: blur(5px);
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Press Start 2P';
+}
+.grid-container{
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    height: 100%;
+}
+/*nav*/
+.grid__nav{
+    height: 70px;
+    grid-column: 1 / 4;
+}
+.nav-productos{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.nav-productos a{
+    padding: 15px;
+    text-decoration: none;
+    color: #52FF00;
+    font-size: 8px;
+    border-bottom: 3px solid #52FF00;
+}
+.nav-productos a:hover{
+    background-color: #52FF00;
+    transition: 0.7s;
+    color: black;
+    animation-name: color;
+    animation-duration: 0.5s;
+}
+@keyframes color {
+    70%{
+        background-color: #072C06;
+    }
+    100%{
+        background-color: #52FF00;
+    }
+
+}
+/*productos*/
+.productos__container{
+    grid-column: 1 / 4;
+    grid-row: 2 / auto;
+}
+.productos__container div{
+    width: 200px;
+    height: 200px;
+    border: 2px solid #52FF00;
+    display: inline-block;
+    margin: 15px;
+    box-shadow: 0px 0px 41px 13px rgba(43, 192, 37, 0.75);
+    -webkit-box-shadow: 0px 0px 41px 13px rgba(123, 155, 115, 0.425);
+    -moz-box-shadow: 0px 0px 41px 13px rgba(65, 211, 29, 0.75);
+}
+.items{
+    position: relative;
+}
+.items img{
+    height: 200px;
+    width: 200px;
+}
+.boton__comprar{
+    background: transparent;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, 50%);
+    border: none;
+    background-color: #52FF00;
+    color: #072C06;
+}
+.boton__comprar:hover{
+    transition: 0.7s;
+    background-color: #072C06;
+    color: #52FF00;
+}
+.precio{
+    position: absolute;
+    right: 0%;
+    font-size: 15px;
+    color:limegreen
+}
+/*footer*/
+footer{
+    border: 1px solid #52FF00;
+    grid-column: 1 / 4;
+    grid-row: 4 / auto;
+    height: 70px;
+    color: #52FF00;
+    text-align: center;
+    font-size: small;
+}
